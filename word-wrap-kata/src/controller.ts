@@ -1,6 +1,6 @@
 export class Controller {
 
-    public subscribeToEvents(aDocument: Document, {columnWidthId, editorId, applyId}:
+    public subscribeToEvents(aDocument: Document, { columnWidthId, editorId, applyId }:
         {
             columnWidthId: string,
             editorId: string,
@@ -26,4 +26,14 @@ export class Controller {
             console.log('Text: ', editorWidget.value);
         }
     }
+
+    public bestWraperEver(word: string, colunmWidth: number): string {
+        
+        if (word.length <= 0 || colunmWidth <= 0) {
+            return word;
+        }
+
+        return "";
+    }
+
 }
