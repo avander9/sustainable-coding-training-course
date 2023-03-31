@@ -3,3 +3,8 @@ build/
 .DS_Store
 *.iml
 .node_modules/
+.vs/slnx.sqlite
+.vs/sustainable-coding-training-course/FileContentIndex/bd1cfa72-311d-480f-9110-418c12287946.vsidx
+.vs/sustainable-coding-training-course/FileContentIndex/read.lock
+.vs/sustainable-coding-training-course/v17/.wsuo
+.vs/VSWorkspaceState.json
